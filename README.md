@@ -8,4 +8,4 @@ $ sudo make install
 ```
 
 ## Configuration
-See config.h. Rebuild and install after editing it.
+See `config.h`. (Re)build and (re)install after editing it.
