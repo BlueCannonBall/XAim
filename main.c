@@ -22,7 +22,6 @@ int main() {
     }
 
     Window root = DefaultRootWindow(dpy);
-    int default_screen = XDefaultScreen(dpy);
 
     XWindowAttributes root_attrs;
     XGetWindowAttributes(dpy, root, &root_attrs);

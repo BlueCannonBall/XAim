@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -s -Ofast -lX11 -lXfixes
+CFLAGS = -Wall -s -O2 -lX11 -lXfixes -flto
 TARGET = xaim
 PREFIX = /usr/local
 
