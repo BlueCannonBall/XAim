@@ -16,7 +16,7 @@ void allow_input_passthrough(Display* dpy, Window w) {
 
 int main() {
     Display* dpy;
-    if ((dpy = XOpenDisplay(NULL)) == NULL) {
+    if (!(dpy = XOpenDisplay(NULL))) {
         fprintf(stderr, "Failed to open display, terminating\n");
         return 1;
     }
